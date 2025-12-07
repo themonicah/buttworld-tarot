@@ -1,0 +1,18 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Large PSD/AI files (keep finals in repo, work files optional)
+*.psd
+*.ai
+*.sketch
+
+# Procreate files
+*.procreate
+
+# Temporary files
+*.tmp
+*~
+
+# But DO track the final assets
+!assets/final/*
