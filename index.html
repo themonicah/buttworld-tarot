@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Buttworld Tarot - Production Tracker</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Georgia', serif;
+      background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f0f23 100%);
+      min-height: 100vh;
+      color: #e8e8e8;
+      padding: 2rem;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      background: linear-gradient(90deg, #f4a261, #e76f51);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      margin-bottom: 0.5rem;
+    }
+
+    .subtitle {
+      color: #888;
+      font-style: italic;
+    }
+
+    .stats {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      margin: 2rem 0;
+      flex-wrap: wrap;
+    }
+
+    .stat {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 12px;
+      padding: 1rem 2rem;
+      text-align: center;
+    }
+
+    .stat-number {
+      font-size: 2rem;
+      font-weight: bold;
+      color: #f4a261;
+    }
+
+    .stat-label {
+      font-size: 0.85rem;
+      color: #888;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    .progress-bar {
+      width: 100%;
+      height: 8px;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 4px;
+      margin: 1rem 0 3rem;
+      overflow: hidden;
+    }
+
+    .progress-fill {
+      height: 100%;
+      background: linear-gradient(90deg, #f4a261, #e76f51);
+      border-radius: 4px;
+      transition: width 0.5s ease;
+    }
+
+    .cards-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+      gap: 1.5rem;
+    }
+
+    @media (max-width: 600px) {
+      .cards-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 12px;
+      padding: 1.5rem;
+      transition: all 0.3s ease;
+    }
+
+    .card:hover {
+      background: rgba(255, 255, 255, 0.06);
+      border-color: rgba(244, 162, 97, 0.3);
+    }
+
+    .card.complete {
+      border-color: rgba(76, 175, 80, 0.4);
+      background: rgba(76, 175, 80, 0.05);
+    }
+
+    .card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 1rem;
+    }
+
+    .card-title {
+      font-size: 1.1rem;
+      color: #f4a261;
+    }
+
+    .card-number {
+      font-size: 0.85rem;
+      color: #666;
+    }
+
+    .card-character {
+      color: #aaa;
+      font-style: italic;
+      margin-bottom: 0.75rem;
+    }
+
+    .card-quotes {
+      font-size: 0.9rem;
+      margin-bottom: 1rem;
+    }
+
+    .quote {
+      padding: 0.5rem 0;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    }
+
+    .quote:last-child {
+      border-bottom: none;
+    }
+
+    .quote-label {
+      font-size: 0.75rem;
+      color: #666;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    .quote-text {
+      color: #ccc;
+      margin-top: 0.25rem;
+    }
+
+    .checkboxes {
+      display: flex;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+    }
+
+    .checkbox-item {
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+      background: rgba(255, 255, 255, 0.05);
+      padding: 0.4rem 0.8rem;
+      border-radius: 20px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      font-size: 0.85rem;
+    }
+
+    .checkbox-item:hover {
+      background: rgba(255, 255, 255, 0.1);
+    }
+
+    .checkbox-item.checked {
+      background: rgba(76, 175, 80, 0.2);
+      color: #81c784;
+    }
+
+    .checkbox-item input {
+      display: none;
+    }
+
+    .checkbox-item .check {
+      width: 16px;
+      height: 16px;
+      border: 2px solid #666;
+      border-radius: 4px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.2s ease;
+    }
+
+    .checkbox-item.checked .check {
+      background: #4caf50;
+      border-color: #4caf50;
+    }
+
+    .checkbox-item .check::after {
+      content: '✓';
+      color: white;
+      font-size: 10px;
+      opacity: 0;
+      transition: opacity 0.2s ease;
+    }
+
+    .checkbox-item.checked .check::after {
+      opacity: 1;
+    }
+
+    .reset-btn {
+      display: block;
+      margin: 3rem auto 0;
+      padding: 0.75rem 2rem;
+      background: transparent;
+      border: 1px solid rgba(231, 111, 81, 0.5);
+      color: #e76f51;
+      border-radius: 8px;
+      cursor: pointer;
+      font-family: inherit;
+      font-size: 0.9rem;
+      transition: all 0.2s ease;
+    }
+
+    .reset-btn:hover {
+      background: rgba(231, 111, 81, 0.1);
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 3rem;
+      padding-top: 2rem;
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+      color: #666;
+      font-size: 0.85rem;
+    }
+
+    footer a {
+      color: #f4a261;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Buttworld Tarot</h1>
+      <p class="subtitle">Major Arcana Production Tracker</p>
+    </header>
+
+    <div class="stats">
+      <div class="stat">
+        <div class="stat-number" id="sketched-count">0</div>
+        <div class="stat-label">Sketched</div>
+      </div>
+      <div class="stat">
+        <div class="stat-number" id="linework-count">0</div>
+        <div class="stat-label">Linework</div>
+      </div>
+      <div class="stat">
+        <div class="stat-number" id="colored-count">0</div>
+        <div class="stat-label">Colored</div>
+      </div>
+      <div class="stat">
+        <div class="stat-number" id="final-count">0</div>
+        <div class="stat-label">Final</div>
+      </div>
+    </div>
+
+    <div class="progress-bar">
+      <div class="progress-fill" id="progress-fill" style="width: 0%"></div>
+    </div>
+
+    <div class="cards-grid" id="cards-grid"></div>
+
+    <button class="reset-btn" onclick="resetProgress()">Reset All Progress</button>
+
+    <footer>
+      <p>Buttworld Tarot &copy; 2024 | <a href="https://github.com/themonicah/buttworld-tarot">View on GitHub</a> | <a href="https://themonicah.github.io/portfolio/">Portfolio</a></p>
+    </footer>
+  </div>
+
+  <script>
+    const cards = [
+      {
+        number: "0",
+        name: "The Fool",
+        character: "Forrest Gump",
+        upright: "Life is like a box of flatulents",
+        reversed: "I gotta find Bubba's butt"
+      },
+      {
+        number: "I",
+        name: "The Magician",
+        character: "Harry Potter",
+        upright: "Expecto Pootronum",
+        reversed: "I solemnly swear I'm up to no good gas"
+      },
+      {
+        number: "II",
+        name: "The High Priestess",
+        character: "Mulder & Scully",
+        upright: "The toot is out there",
+        reversed: "I want to bereave"
+      },
+      {
+        number: "III",
+        name: "The Empress",
+        character: "Oprah",
+        upright: "You get a gas! You get a gas!",
+        reversed: "Check under your seat for emotional baggage"
+      },
+      {
+        number: "IV",
+        name: "The Emperor",
+        character: "Darth Vader",
+        upright: "I am your farter",
+        reversed: "I find your lack of fiber disturbing"
+      },
+      {
+        number: "V",
+        name: "The Hierophant",
+        character: "Ned Flanders",
+        upright: "Hidey-ho, neigh-butt-rino!",
+        reversed: "Feels like I'm wearing nothing at all"
+      },
+      {
+        number: "VI",
+        name: "The Lovers",
+        character: "Romeo & Juliet",
+        upright: "Wherefore art thou, rear-meo?",
+        reversed: "A plague on both your cheeks"
+      },
+      {
+        number: "VII",
+        name: "The Chariot",
+        character: "Ben-Hur",
+        upright: "Ramming speed from behind",
+        reversed: "The race is never over till it's passed"
+      },
+      {
+        number: "VIII",
+        name: "Strength",
+        character: "He-Man",
+        upright: "By the power of Greyskull, I have the bowel!",
+        reversed: "I said hey, what's going on in there"
+      },
+      {
+        number: "IX",
+        name: "The Hermit",
+        character: "Shrek",
+        upright: "Get out of my swamp gas",
+        reversed: "Ogres have layers, like toilet paper"
+      },
+      {
+        number: "X",
+        name: "Wheel of Fortune",
+        character: "Vanna White",
+        upright: "Would you like to buy a bowel?",
+        reversed: "Bankrupt! Lose a turn-d"
+      },
+      {
+        number: "XI",
+        name: "Justice",
+        character: "Judge Judy",
+        upright: "Don't pee on my leg and tell me it's raining",
+        reversed: "You're not just a butt, you're a whole ass"
+      },
+      {
+        number: "XII",
+        name: "The Hanged Man",
+        character: "Spider-Man",
+        upright: "With great power comes great response-a-bidet",
+        reversed: "I don't feel so good, Mr. Stank"
+      },
+      {
+        number: "XIII",
+        name: "Death",
+        character: "Grim Reaper",
+        upright: "silent, holding hourglass of sand",
+        reversed: "silent, hourglass flipped"
+      },
+      {
+        number: "XIV",
+        name: "Temperance",
+        character: "Aang",
+        upright: "I must master all four elemints",
+        reversed: "That's rough, buddy"
+      },
+      {
+        number: "XV",
+        name: "The Devil",
+        character: "Dr. Evil",
+        upright: "One million fart dollars",
+        reversed: "Mini-me, stop humming"
+      },
+      {
+        number: "XVI",
+        name: "The Tower",
+        character: "King Kong",
+        upright: "Twas booty killed the beast",
+        reversed: "It wasn't the airplanes, it was gas"
+      },
+      {
+        number: "XVII",
+        name: "The Star",
+        character: "Tinker Bell",
+        upright: "All you need is faith, trust, and a little pixie dust-er",
+        reversed: "Think happy toots"
+      },
+      {
+        number: "XVIII",
+        name: "The Moon",
+        character: "Sailor Moon",
+        upright: "In the name of the moon, I will poonish you",
+        reversed: "Moon prism power, make-up wind"
+      },
+      {
+        number: "XIX",
+        name: "The Sun",
+        character: "Rafiki",
+        upright: "Look at your beHIND",
+        reversed: "Hakuna Ma-toot-a"
+      },
+      {
+        number: "XX",
+        name: "Judgement",
+        character: "The Terminator",
+        upright: "Hasta la vista, baby wipe",
+        reversed: "I'll be back... side"
+      },
+      {
+        number: "XXI",
+        name: "The World",
+        character: "Captain Planet",
+        upright: "The power is yours to pass",
+        reversed: "By your powers combined, I am Captain Flatulence"
+      }
+    ];
+
+    const stages = ['sketch', 'linework', 'color', 'final'];
+
+    function getProgress() {
+      const saved = localStorage.getItem('buttworld-tarot-progress');
+      return saved ? JSON.parse(saved) : {};
+    }
+
+    function saveProgress(progress) {
+      localStorage.setItem('buttworld-tarot-progress', JSON.stringify(progress));
+    }
+
+    function toggleStage(cardIndex, stage) {
+      const progress = getProgress();
+      const key = `${cardIndex}-${stage}`;
+      progress[key] = !progress[key];
+      saveProgress(progress);
+      render();
+    }
+
+    function resetProgress() {
+      if (confirm('Are you sure you want to reset all progress?')) {
+        localStorage.removeItem('buttworld-tarot-progress');
+        render();
+      }
+    }
+
+    function render() {
+      const progress = getProgress();
+      const grid = document.getElementById('cards-grid');
+
+      let counts = { sketch: 0, linework: 0, color: 0, final: 0 };
+
+      grid.innerHTML = cards.map((card, index) => {
+        const cardStages = stages.map(stage => {
+          const key = `${index}-${stage}`;
+          const checked = progress[key] || false;
+          if (checked) counts[stage]++;
+          return { stage, checked };
+        });
+
+        const isComplete = cardStages.every(s => s.checked);
+
+        return `
+          <div class="card ${isComplete ? 'complete' : ''}">
+            <div class="card-header">
+              <div>
+                <div class="card-number">${card.number}</div>
+                <div class="card-title">${card.name}</div>
+              </div>
+            </div>
+            <div class="card-character">${card.character}</div>
+            <div class="card-quotes">
+              <div class="quote">
+                <div class="quote-label">Upright</div>
+                <div class="quote-text">"${card.upright}"</div>
+              </div>
+              <div class="quote">
+                <div class="quote-label">Reversed</div>
+                <div class="quote-text">"${card.reversed}"</div>
+              </div>
+            </div>
+            <div class="checkboxes">
+              ${cardStages.map(({ stage, checked }) => `
+                <label class="checkbox-item ${checked ? 'checked' : ''}" onclick="toggleStage(${index}, '${stage}')">
+                  <span class="check"></span>
+                  ${stage.charAt(0).toUpperCase() + stage.slice(1)}
+                </label>
+              `).join('')}
+            </div>
+          </div>
+        `;
+      }).join('');
+
+      document.getElementById('sketched-count').textContent = counts.sketch;
+      document.getElementById('linework-count').textContent = counts.linework;
+      document.getElementById('colored-count').textContent = counts.color;
+      document.getElementById('final-count').textContent = counts.final;
+
+      const totalPossible = cards.length * stages.length;
+      const totalComplete = Object.values(counts).reduce((a, b) => a + b, 0);
+      const percentage = (totalComplete / totalPossible) * 100;
+      document.getElementById('progress-fill').style.width = `${percentage}%`;
+    }
+
+    render();
+  </script>
+</body>
+</html>
