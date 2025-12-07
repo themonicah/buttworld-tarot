@@ -20,7 +20,7 @@
     }
 
     .container {
-      max-width: 600px;
+      max-width: 700px;
       margin: 0 auto;
     }
 
@@ -80,17 +80,39 @@
       transition: width 0.5s ease;
     }
 
+    .column-headers {
+      display: flex;
+      align-items: center;
+      padding: 0.5rem 1rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .column-headers .spacer {
+      flex: 1;
+    }
+
+    .column-headers .labels {
+      display: flex;
+      gap: 0.25rem;
+    }
+
+    .column-headers .label {
+      width: 32px;
+      text-align: center;
+      font-size: 0.65rem;
+      font-weight: bold;
+      color: #999;
+      text-transform: uppercase;
+    }
+
     .cards-list {
       display: flex;
       flex-direction: column;
-      gap: 0.5rem;
+      gap: 0.75rem;
     }
 
     .card {
-      display: flex;
-      align-items: center;
-      gap: 1rem;
-      padding: 0.75rem 1rem;
+      padding: 1rem;
       border-radius: 12px;
       background: #fafafa;
       transition: all 0.2s ease;
@@ -104,34 +126,100 @@
       background: #e8f5e9;
     }
 
+    .card-top {
+      display: flex;
+      align-items: flex-start;
+      gap: 1rem;
+    }
+
     .card-info {
       flex: 1;
       min-width: 0;
     }
 
-    .card-title {
-      font-size: 1rem;
+    .card-number {
+      font-size: 1.1rem;
+      color: #ff6b9d;
       font-weight: bold;
-      color: #333;
-      display: flex;
-      align-items: center;
-      gap: 0.5rem;
+      margin-bottom: 0.1rem;
     }
 
-    .card-number {
-      color: #ccc;
-      font-size: 0.85rem;
-      font-weight: normal;
+    .card-name {
+      font-size: 1.4rem;
+      font-weight: bold;
+      color: #333;
+      line-height: 1.2;
     }
 
     .card-character {
       color: #999;
+      font-size: 0.9rem;
+      margin-top: 0.25rem;
+    }
+
+    .card-quotes {
+      margin-top: 0.75rem;
       font-size: 0.85rem;
+    }
+
+    .quote {
+      color: #666;
+      margin-bottom: 0.25rem;
+    }
+
+    .quote-label {
+      font-size: 0.7rem;
+      color: #bbb;
+      text-transform: uppercase;
+      margin-right: 0.25rem;
+    }
+
+    .card-gags {
+      margin-top: 0.75rem;
+    }
+
+    .gags-toggle {
+      font-size: 0.75rem;
+      color: #ff6b9d;
+      cursor: pointer;
+      background: none;
+      border: none;
+      font-family: inherit;
+      padding: 0;
+    }
+
+    .gags-toggle:hover {
+      text-decoration: underline;
+    }
+
+    .gags-content {
+      display: none;
+      margin-top: 0.5rem;
+      padding: 0.75rem;
+      background: #fff;
+      border-radius: 8px;
+      font-size: 0.75rem;
+      color: #888;
+      line-height: 1.6;
+    }
+
+    .gags-content.show {
+      display: block;
+    }
+
+    .gags-content ul {
+      margin: 0;
+      padding-left: 1.25rem;
+    }
+
+    .gags-content li {
+      margin-bottom: 0.25rem;
     }
 
     .checkboxes {
       display: flex;
       gap: 0.25rem;
+      flex-shrink: 0;
     }
 
     .checkbox-item {
@@ -142,24 +230,24 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      font-size: 0.65rem;
-      font-weight: bold;
-      text-transform: uppercase;
       transition: all 0.2s ease;
       border: 2px solid #e0e0e0;
       background: #fff;
-      color: #bbb;
     }
 
     .checkbox-item:hover {
       border-color: #ff6b9d;
-      color: #ff6b9d;
     }
 
     .checkbox-item.checked {
       background: #ff6b9d;
       border-color: #ff6b9d;
+    }
+
+    .checkbox-item.checked::after {
+      content: '✓';
       color: #fff;
+      font-size: 0.9rem;
     }
 
     .checkbox-item.checked.final-stage {
@@ -241,6 +329,16 @@
       <div class="progress-fill" id="progress-fill" style="width: 0%"></div>
     </div>
 
+    <div class="column-headers">
+      <div class="spacer"></div>
+      <div class="labels">
+        <div class="label">Sk</div>
+        <div class="label">Ln</div>
+        <div class="label">Clr</div>
+        <div class="label">Fin</div>
+      </div>
+    </div>
+
     <div class="cards-list" id="cards-list"></div>
 
     <button class="reset-btn" onclick="resetProgress()">reset all</button>
@@ -252,31 +350,184 @@
 
   <script>
     const cards = [
-      { number: "0", name: "The Fool", character: "Forrest Gump" },
-      { number: "I", name: "The Magician", character: "Harry Potter" },
-      { number: "II", name: "The High Priestess", character: "Mulder & Scully" },
-      { number: "III", name: "The Empress", character: "Oprah" },
-      { number: "IV", name: "The Emperor", character: "Darth Vader" },
-      { number: "V", name: "The Hierophant", character: "Ned Flanders" },
-      { number: "VI", name: "The Lovers", character: "Romeo & Juliet" },
-      { number: "VII", name: "The Chariot", character: "Ben-Hur" },
-      { number: "VIII", name: "Strength", character: "He-Man" },
-      { number: "IX", name: "The Hermit", character: "Shrek" },
-      { number: "X", name: "Wheel of Fortune", character: "Vanna White" },
-      { number: "XI", name: "Justice", character: "Judge Judy" },
-      { number: "XII", name: "The Hanged Man", character: "Spider-Man" },
-      { number: "XIII", name: "Death", character: "Grim Reaper" },
-      { number: "XIV", name: "Temperance", character: "Aang" },
-      { number: "XV", name: "The Devil", character: "Dr. Evil" },
-      { number: "XVI", name: "The Tower", character: "King Kong" },
-      { number: "XVII", name: "The Star", character: "Tinker Bell" },
-      { number: "XVIII", name: "The Moon", character: "Sailor Moon" },
-      { number: "XIX", name: "The Sun", character: "Rafiki" },
-      { number: "XX", name: "Judgement", character: "The Terminator" },
-      { number: "XXI", name: "The World", character: "Captain Planet" }
+      {
+        number: "0",
+        name: "The Fool",
+        character: "Forrest Gump",
+        upright: "Life is like a box of flatulents",
+        reversed: "I gotta find Bubba's butt",
+        gags: ["Box labeled 'Ass-orted Chocolates'", "Shrimp boat 'Jenny's Bottom' in background", "Lt. Dan giving thumbs up", "Medal of Honor shaped like a butt", "Dr Pepper on bench"]
+      },
+      {
+        number: "I",
+        name: "The Magician",
+        character: "Harry Potter",
+        upright: "Expecto Pootronum",
+        reversed: "I solemnly swear I'm up to no good gas",
+        gags: ["Patronus stag farting silver mist", "Bertie Bott's bean - one suspicious brown", "Dobby's sock on floor", "Lightning scar looks like a butt crack", "Marauder's Map with butt footprints"]
+      },
+      {
+        number: "II",
+        name: "The High Priestess",
+        character: "Mulder & Scully",
+        upright: "The toot is out there",
+        reversed: "I want to bereave",
+        gags: ["Poster: 'I Want to BeLEAVE'", "Case file 'X-4SS-13'", "Trust No Bun graffiti", "Pencils stuck in ceiling", "Cigarette smoke from Smoking Man"]
+      },
+      {
+        number: "III",
+        name: "The Empress",
+        character: "Oprah",
+        upright: "You get a gas! You get a gas!",
+        reversed: "Check under your seat for emotional baggage",
+        gags: ["Gift box: 'YOU GET BEES'", "Stedman clapping in front row", "Bread loaf on throne arm", "O Magazine covers feature her butt", "Tom Cruise jump marks on couch"]
+      },
+      {
+        number: "IV",
+        name: "The Emperor",
+        character: "Darth Vader",
+        upright: "I am your farter",
+        reversed: "I find your lack of fiber disturbing",
+        gags: ["Officer being Force choked", "Luke's severed hand floating past", "Padmé's necklace inside cape", "Youngling crayon drawing crumpled", "'KHHH PHHH' breathing text"]
+      },
+      {
+        number: "V",
+        name: "The Hierophant",
+        character: "Ned Flanders",
+        upright: "Hidey-ho, neigh-butt-rino!",
+        reversed: "Feels like I'm wearing nothing at all",
+        gags: ["Ski suit in closet (stupid sexy)", "Homer-shaped hedge outside", "Maude's grave with t-shirt cannon", "Bible titled 'The Good Butt'", "Okily Dokily band poster"]
+      },
+      {
+        number: "VI",
+        name: "The Lovers",
+        character: "Romeo & Juliet",
+        upright: "Wherefore art thou, rear-meo?",
+        reversed: "A plague on both your cheeks",
+        gags: ["Poison vial on windowsill", "Mercutio graffiti on wall", "Nurse butt peeking from curtain", "Montague/Capulet butt crests", "Paris lurking jealously"]
+      },
+      {
+        number: "VII",
+        name: "The Chariot",
+        character: "Ben-Hur",
+        upright: "Ramming speed from behind",
+        reversed: "The race is never over till it's passed",
+        gags: ["Messala's chariot crashing behind", "'41' slave number branded", "Jesus giving water in background", "Lap counter showing IX", "'Row well, and live' on chariot"]
+      },
+      {
+        number: "VIII",
+        name: "Strength",
+        character: "He-Man",
+        upright: "By the power of Greyskull, I have the bowel!",
+        reversed: "I said hey, what's going on in there",
+        gags: ["Cringer hiding behind rock", "Skeletor face in storm clouds", "Prince Adam's pink vest discarded", "4 Non Blondes sheet music", "'FABULOUS SECRET POWERS' in energy"]
+      },
+      {
+        number: "IX",
+        name: "The Hermit",
+        character: "Shrek",
+        upright: "Get out of my swamp gas",
+        reversed: "Ogres have layers, like toilet paper",
+        gags: ["Donkey approaching despite signs", "'WHAT ARE YOU DOING IN MY SWAMP' on door", "Wanted poster: 10 coins reward", "Parfait sitting uneaten", "Smash Mouth sheet music"]
+      },
+      {
+        number: "X",
+        name: "Wheel of Fortune",
+        character: "Vanna White",
+        upright: "Would you like to buy a bowel?",
+        reversed: "Bankrupt! Lose a turn-d",
+        gags: ["Puzzle: '_ U T T W O R L D'", "Wheel wedge: '$FART'", "Sajak mug: 'Rather host Jeopardy'", "Dress counter: #6,789", "Category: 'BEFORE & AFTER (GAS)'"]
+      },
+      {
+        number: "XI",
+        name: "Justice",
+        character: "Judge Judy",
+        upright: "Don't pee on my leg and tell me it's raining",
+        reversed: "You're not just a butt, you're a whole ass",
+        gags: ["Case: 'Buttowski vs. Buttowski'", "Byrd mid-eye-roll", "'Um' counter on bench", "Defendant nose growing", "Speech bubble: 'BALONEY!'"]
+      },
+      {
+        number: "XII",
+        name: "The Hanged Man",
+        character: "Spider-Man",
+        upright: "With great power comes great response-a-bidet",
+        reversed: "I don't feel so good, Mr. Stank",
+        gags: ["Pizza slice falling", "Daily Bugle: 'SPIDER-MENACE HANGS'", "MJ lipstick on mask", "Rent sign in apartment window", "J. Jonah shaking fist from window"]
+      },
+      {
+        number: "XIII",
+        name: "Death",
+        character: "Grim Reaper",
+        upright: "silent, holding hourglass",
+        reversed: "silent, hourglass flipped",
+        gags: ["Tombstone: 'R.I.P. Really Into Pizza'", "Chess board (Seventh Seal nod)", "'Don't Fear the Reaper' sheet music", "Appointment book: 'Everyone, eventually'", "Sand grains shaped like tiny butts"]
+      },
+      {
+        number: "XIV",
+        name: "Temperance",
+        character: "Aang",
+        upright: "I must master all four elemints",
+        reversed: "That's rough, buddy",
+        gags: ["Cabbage merchant: 'MY CABBAGES!'", "Appa cloud trail: 'Yip yip!'", "Cactus juice: 'It's the quenchiest!'", "Iroh drinking tea peacefully", "'Flameo, hotman' carved in rock"]
+      },
+      {
+        number: "XV",
+        name: "The Devil",
+        character: "Dr. Evil",
+        upright: "One million fart dollars",
+        reversed: "Mini-me, stop humming",
+        gags: ["Sharks with frickin' laser beams", "Scott Evil rolling eyes in corner", "'The Alan Parsons Project' plans", "Austin Powers chained up", "Tank label: 'Ill-tempered sea bass'"]
+      },
+      {
+        number: "XVI",
+        name: "The Tower",
+        character: "King Kong",
+        upright: "Twas booty killed the beast",
+        reversed: "It wasn't the airplanes, it was gas",
+        gags: ["Carl Denham still filming below", "Broadway poster falling: 'THE EIGHTH WONDER'", "Ann screaming: 'AAAAAHHH'", "Broken chains on wrists", "1933 calendar in window"]
+      },
+      {
+        number: "XVII",
+        name: "The Star",
+        character: "Tinker Bell",
+        upright: "All you need is faith, trust, and a little pixie dust-er",
+        reversed: "Think happy toots",
+        gags: ["Peter's shadow flying independently", "Tick-tock croc with clock belly", "Wendy's thimble 'kiss' by pool", "'Second star to the right' pointed", "Hook's hook at pool bottom"]
+      },
+      {
+        number: "XVIII",
+        name: "The Moon",
+        character: "Sailor Moon",
+        upright: "In the name of the moon, I will poonish you",
+        reversed: "Moon prism power, make-up wind",
+        gags: ["Tuxedo Mask throwing roses from shadows", "Failed test (30 points) floating", "Luna and Artemis on either side", "Queen Serenity ghost in moon", "Sailor V poster on Tokyo Tower"]
+      },
+      {
+        number: "XIX",
+        name: "The Sun",
+        character: "Rafiki",
+        upright: "Look at your beHIND",
+        reversed: "Hakuna Ma-toot-a",
+        gags: ["Mufasa's face in clouds, smiling", "Scar lurking jealously in back", "Timon & Pumbaa looking confused", "'Asante sana squash banana' on staff", "Hyenas skulking at Pride Lands edge"]
+      },
+      {
+        number: "XX",
+        name: "Judgement",
+        character: "The Terminator",
+        upright: "Hasta la vista, baby wipe",
+        reversed: "I'll be back... side",
+        gags: ["'I'll be back' on destroyed door", "August 29, 1997 calendar", "T-1000 puddle reforming", "Thumbs up into molten steel", "'No fate but what we make' in rubble"]
+      },
+      {
+        number: "XXI",
+        name: "The World",
+        character: "Captain Planet",
+        upright: "The power is yours to pass",
+        reversed: "By your powers combined, I am Captain Flatulence",
+        gags: ["All 5 Planeteers in corners with rings", "Hoggish Greedly being blown away", "'THE POWER IS YOURS!' in stars", "Pollution stain he's avoiding", "Dolphins holding 'Go Planet!' banner"]
+      }
     ];
 
-    const stages = ['S', 'L', 'C', 'F'];
     const stageKeys = ['sketch', 'linework', 'color', 'final'];
 
     function getProgress() {
@@ -294,6 +545,11 @@
       progress[key] = !progress[key];
       saveProgress(progress);
       render();
+    }
+
+    function toggleGags(index) {
+      const content = document.getElementById(`gags-${index}`);
+      content.classList.toggle('show');
     }
 
     function resetProgress() {
@@ -314,27 +570,38 @@
           const progressKey = `${index}-${key}`;
           const checked = progress[progressKey] || false;
           if (checked) counts[key]++;
-          return { stageIndex, checked, label: stages[stageIndex], isFinal: key === 'final' };
+          return { stageIndex, checked, isFinal: key === 'final' };
         });
 
         const isComplete = cardStages.every(s => s.checked);
 
         return `
           <div class="card ${isComplete ? 'complete' : ''}">
-            <div class="card-info">
-              <div class="card-title">
-                <span class="card-number">${card.number}</span>
-                ${card.name}
-              </div>
-              <div class="card-character">${card.character}</div>
-            </div>
-            <div class="checkboxes">
-              ${cardStages.map(({ stageIndex, checked, label, isFinal }) => `
-                <div class="checkbox-item ${checked ? 'checked' : ''} ${isFinal && checked ? 'final-stage' : ''}"
-                     onclick="toggleStage(${index}, ${stageIndex})">
-                  ${label}
+            <div class="card-top">
+              <div class="card-info">
+                <div class="card-number">${card.number}</div>
+                <div class="card-name">${card.name}</div>
+                <div class="card-character">${card.character}</div>
+                <div class="card-quotes">
+                  <div class="quote"><span class="quote-label">↑</span> "${card.upright}"</div>
+                  <div class="quote"><span class="quote-label">↓</span> "${card.reversed}"</div>
                 </div>
-              `).join('')}
+                <div class="card-gags">
+                  <button class="gags-toggle" onclick="toggleGags(${index})">+ hidden gags</button>
+                  <div class="gags-content" id="gags-${index}">
+                    <ul>
+                      ${card.gags.map(gag => `<li>${gag}</li>`).join('')}
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="checkboxes">
+                ${cardStages.map(({ stageIndex, checked, isFinal }) => `
+                  <div class="checkbox-item ${checked ? 'checked' : ''} ${isFinal && checked ? 'final-stage' : ''}"
+                       onclick="toggleStage(${index}, ${stageIndex})">
+                  </div>
+                `).join('')}
+              </div>
             </div>
           </div>
         `;
