@@ -57,6 +57,20 @@ Art Nouveau frame with:
 - Keys
 - The Leftorium logo
 
+### Gags & Easter Eggs
+- **The Bible:** Title reads "The Good Butt" or "Flanders Family Bible"
+- **Photo frames:** Pictures of Maude (deceased wife butt, angel wings), the boys, etc.
+- **Stupid sexy Flanders:** Ski suit visible hanging in closet in background
+- **Homer's hedge:** A hedge trimmed to look like Homer visible through window
+- **Leftorium sign:** "The Leftorium - Everything for the Left-Cheeked!"
+- **Rod and Todd's expressions:** One looks scared, one looks overly beatific
+- **Cocoa mugs:** "World's Best Dad" mugs on shelf
+- **Purple curtains:** Ned's signature purple drapes
+- **"Hi-diddly-ho":** Written on welcome mat
+- **Maude's grave:** Visible through window, t-shirt cannon nearby
+- **Okily Dokily:** A band poster (the Ned Flanders metal band)
+- **Lisa's saxophone:** She's the only Simpson he truly respects, subtle nod
+
 ### AI Image Prompt
 ```
 Tarot card "The Hierophant", a wholesome butt character as Ned Flanders with thick mustache and green sweater, blessing pose with Bible, two small child butts (Rod and Todd) on either side, church setting with stained glass, Simpson-style religious imagery, Drew Struzan painterly style, Art Nouveau border with crosses and mustaches, warm pious lighting --ar 9:16 --v 6

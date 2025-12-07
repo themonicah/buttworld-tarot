@@ -67,6 +67,25 @@ Art Nouveau frame with:
 - Hearts
 - Environmental symbols (trees, waves, flames, wind)
 
+### Gags & Easter Eggs
+- **The Five Planeteers:**
+  - Kwame (Earth) - African butt with green ring
+  - Wheeler (Fire) - American butt with red ring, Brooklyn attitude
+  - Linka (Wind) - Russian butt with white ring
+  - Gi (Water) - Asian butt with blue ring
+  - Ma-Ti (Heart) - South American butt with heart ring, Suchi the monkey nearby
+- **Hoggish Greedly:** A polluter villain butt being blown away
+- **Dr. Blight:** Evil scientist butt running from the light
+- **Gaia:** Earth goddess butt appearing in hologram form
+- **Hope Island:** The Planeteers' home base visible on Earth
+- **Eco-Villains:** Looten Plunder, Verminous Skumm fleeing
+- **"THE POWER IS YOURS!":** Written in the stars
+- **Recycling symbol:** Formed by the element ring
+- **Pollution clearing:** Smog visibly dissipating around Earth
+- **Captain Planet ring gesture:** His hands forming the summoning pose
+- **"Go Planet!":** On a banner held by dolphins below
+- **The weakness:** Pollution stain he's clearly avoiding (his kryptonite)
+
 ### AI Image Prompt
 ```
 Tarot card "The World", an athletic blue-skinned butt character as Captain Planet with green mullet, floating in space above Earth, arms outstretched, ring of five elements (earth fire wind water heart) around him like a wreath, four Planeteers in corners, healthy Earth below, starfield behind, Drew Struzan painterly style, Art Nouveau border with elemental symbols and Earth, complete triumphant unified mood --ar 9:16 --v 6

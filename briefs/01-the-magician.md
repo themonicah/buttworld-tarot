@@ -46,6 +46,18 @@ Art Nouveau frame with:
 - Stars and moons
 - Hogwarts house crests in corners
 
+### Gags & Easter Eggs
+- **Patronus:** The ghostly stag is farting silver mist as it forms
+- **Marauder's Map:** Open on the table, showing tiny butt footprints labeled "Mr. Moony, Mr. Wormtail, Mr. Padfoot, Mr. Prongs"
+- **Hedwig:** A snowy owl butt perched on a floating candle
+- **Sorting Hat:** Sitting on a stool in the corner, looking exhausted
+- **Dobby's sock:** A single sock on the floor
+- **Tom Riddle's diary:** On the table with a quill stuck in it, leaking ink
+- **Remembrall:** Glowing red on the table (he forgot something)
+- **Bertie Bott's:** A box of "Every Flavour Beans" with one suspicious brown bean visible
+- **The scar:** Lightning bolt should look slightly like a butt crack
+- **Nimbus 2000:** Leaning against wall in background
+
 ### AI Image Prompt
 ```
 Tarot card "The Magician", a butt character as Harry Potter with round glasses and lightning scar, wearing Hogwarts robes, raising wand skyward in Great Hall, floating candles, magical table with wand cup sword and golden snitch, ghostly stag patronus forming, Drew Struzan painterly style, Art Nouveau ornate border with magical elements, mystical purple and gold lighting --ar 9:16 --v 6

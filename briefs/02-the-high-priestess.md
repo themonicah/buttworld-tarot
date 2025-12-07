@@ -57,6 +57,19 @@ Art Nouveau frame with:
 - Cigarettes (Smoking Man reference)
 - DNA helixes
 
+### Gags & Easter Eggs
+- **The poster:** "I Want to BeLEAVE" with a butt-shaped UFO (or "I Want to BeReave")
+- **Case file labels:** "Flukeman," "Eugene Tooms," "The Great Mutato" visible on files
+- **Sunflower seeds:** Scattered on Mulder's desk (his snack of choice)
+- **Scully's cross:** A tiny gold cross necklace on her
+- **Cigarette smoke:** Wisping in from outside the frame (Smoking Man nearby)
+- **Red Speedo poster:** Mulder's infamous speedo pic tucked behind a cabinet
+- **"Spooky" nameplate:** On desk reading "Spooky Mulder"
+- **Alien autopsy photo:** Pinned to wall, but the alien is a butt
+- **Trust No Bun:** Graffitied on filing cabinet
+- **Case number:** File open to case "X-4SS-13"
+- **Pencils in ceiling:** Mulder's boredom habit visible above
+
 ### AI Image Prompt
 ```
 Tarot card "The High Priestess", two butt characters as Mulder and Scully from X-Files in dark FBI basement office, one seated one standing with flashlight, "I Want to Believe" UFO poster, filing cabinets, mysterious shadows, Drew Struzan painterly style, Art Nouveau border with UFOs and alien motifs, moody blue-green lighting, paranoid atmosphere --ar 9:16 --v 6

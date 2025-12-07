@@ -56,6 +56,20 @@ Art Nouveau frame with:
 - Moss draping
 - "Keep Out" signs
 
+### Gags & Easter Eggs
+- **Donkey:** Annoying donkey-butt visible in far distance, approaching despite signs
+- **"WHAT ARE YOU DOING IN MY SWAMP":** Scratched into outhouse door
+- **Fairytale creatures:** Tiny silhouettes of the Three Blind Mice, Pinocchio hiding in bushes
+- **Fiona's tower:** Barely visible on distant mountain
+- **Earwax candle:** Visible through outhouse window (his DIY candles)
+- **Mud bath:** A mud pit with "SPA" sign
+- **Wanted poster:** "WANTED: OGRE" nailed to tree, Shrek's face, reward: 10 coins
+- **Eyeball martini:** On windowsill of outhouse
+- **Slug toothpaste:** A slug near the door
+- **"I'm a believer":** Sheet music by Smash Mouth tucked somewhere
+- **Parfait:** A parfait sitting uneaten (everybody loves parfait)
+- **Dragon:** A tiny dragon silhouette flying in distant sky
+
 ### AI Image Prompt
 ```
 Tarot card "The Hermit", a green ogre-butt character as Shrek holding glowing lantern on staff, standing in murky swamp at dusk, wooden outhouse home in background, twisted mossy trees, fireflies, "Keep Out" sign, onions on ground, Drew Struzan painterly style, Art Nouveau border with cattails and swamp plants, warm amber lantern against cool twilight, solitary peaceful mood --ar 9:16 --v 6

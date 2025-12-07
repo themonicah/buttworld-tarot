@@ -61,6 +61,21 @@ Art Nouveau frame with:
 - Flowers
 - Acorns
 
+### Gags & Easter Eggs
+- **Peter Pan's shadow:** Flying independently across the stars
+- **The Darling house window:** Open in the distant London skyline
+- **Lost Boys treehouse:** Visible in background
+- **Captain Hook's ship:** The Jolly Roger anchored in the bay
+- **Tick-tock croc:** Crocodile butt in the water, clock visible in belly
+- **Jealous expression:** Tink looks serene but a tiny bit smug (she's always jealous)
+- **Wendy's thimble:** A tiny thimble "kiss" by the pool
+- **Second star to the right:** One star specifically pointed to
+- **"Think happy thoughts":** Written in pixie dust in the air
+- **Nana the dog:** Dog-butt peeking from doghouse in Darling garden
+- **Hook's hook:** Lost hook at bottom of pool
+- **Mermaid Lagoon:** Mermaids visible splashing in distance
+- **The clap:** "If you believe in fairies, clap your hands" on a sign
+
 ### AI Image Prompt
 ```
 Tarot card "The Star", a petite glowing butt character as Tinker Bell with blonde bun, green leaf dress, fairy wings, kneeling by reflecting pool, pouring pixie dust from two vessels into water and sky, Neverland starry night, eight-pointed star above, seven smaller stars, magical glow, Drew Struzan painterly style, Art Nouveau border with stars and fairy wings, hopeful serene magical mood --ar 9:16 --v 6

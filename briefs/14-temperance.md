@@ -64,6 +64,21 @@ Art Nouveau frame with:
 - Lotus flowers
 - Yin-yang motifs
 
+### Gags & Easter Eggs
+- **Appa:** Flying bison butt in sky with "Yip yip!" cloud trail
+- **Momo:** Lemur butt on Aang's shoulder eating a moon peach
+- **Cabbage merchant:** Destroyed cabbage cart in background, tiny butt crying "MY CABBAGES!"
+- **Zuko:** Conflicted fire prince butt lurking on the fire nation side
+- **Iroh:** Tea-drinking butt meditating peacefully somewhere
+- **Sokka's boomerang:** Flying through the air
+- **Katara's necklace:** Water droplet shaped like her betrothal necklace
+- **Toph:** Blind earthbender butt "seeing" through the ground
+- **The scar:** Burn scar from Ozai visible on Aang's back
+- **Guru Pathik:** Tiny meditation butt on a distant mountaintop
+- **Chakras:** Colored lights along Aang's spine
+- **"Flameo, hotman":** Carved into a rock
+- **Cactus juice:** "It's the quenchiest!" bottle discarded nearby
+
 ### AI Image Prompt
 ```
 Tarot card "Temperance", a young bald butt character as Aang with blue arrow tattoo, wearing Air Nomad robes, all four elements (water earth fire air) swirling around in harmony, one foot in water one on land, composite elemental landscape background, Appa flying distant, Drew Struzan painterly style, Art Nouveau border with four elemental symbols, serene balanced spiritual mood --ar 9:16 --v 6

@@ -61,6 +61,22 @@ Art Nouveau frame with:
 - Skulls (both human and robot)
 - "Judgment Day" motifs
 
+### Gags & Easter Eggs
+- **"I'll be back":** Written on a destroyed door frame
+- **Motorcycle and shotgun:** Rose's shotgun and the Harley visible
+- **Sarah Connor:** A warrior woman butt in background with guns
+- **John Connor:** A young butt being protected
+- **August 29, 1997:** Calendar showing Judgment Day
+- **Cyberdyne Systems:** Logo on a destroyed building
+- **The T-1000:** A liquid metal puddle reforming in background
+- **"No fate but what we make":** Carved into rubble
+- **Arnold's sunglasses:** Cracked sunglasses falling
+- **Hasta la vista:** Frozen T-1000 shattering
+- **The thumb:** Thumbs up going into molten steel (T2 ending)
+- **Miles Dyson:** Scientist butt realizing what he's done
+- **Minigun:** Mounted on the side (the memorable scene)
+- **"Come with me if you want to live":** On a resistance banner
+
 ### AI Image Prompt
 ```
 Tarot card "Judgement", a muscular butt character as The Terminator, half-flesh half-chrome endoskeleton, red glowing eye, striding through nuclear fire and ruins, torn leather jacket, holding shotgun, HK drones in sky, figures rising from rubble, post-apocalyptic Judgment Day scene, Drew Struzan painterly style, Art Nouveau border with gears and flames, apocalyptic inevitable reckoning mood --ar 9:16 --v 6

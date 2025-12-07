@@ -62,6 +62,21 @@ Art Nouveau frame with:
 - Lion imagery
 - Circle of life symbols
 
+### Gags & Easter Eggs
+- **Mufasa in clouds:** His face visible in the sunrise clouds, smiling
+- **Scar lurking:** A dark figure at the back of the crowd, looking jealous
+- **Zazu:** A hornbill butt looking officious with a clipboard
+- **Timon and Pumbaa:** Tiny meerkat and warthog butts in crowd looking confused
+- **"CIRCLE OF LIFE":** Written in clouds or light rays
+- **The grub:** A grub falling from somewhere (Pumbaa's snack)
+- **Rafiki's tree:** His meditation tree visible in distance with paintings
+- **The painting:** Simba's birth painting visible on a rock
+- **Nala:** A lioness butt looking adoringly from crowd
+- **Hyenas:** Ed, Shenzi, Banzai skulking at edge of Pride Lands
+- **Elephant graveyard:** Visible dark area at edge of map
+- **Sarabi:** Mother lioness butt looking proud
+- **"Asante sana squash banana":** Written on Rafiki's staff
+
 ### AI Image Prompt
 ```
 Tarot card "The Sun", a wiry mandrill butt character as Rafiki holding up tiny lion cub butt (Simba) toward brilliant rising sun, standing on Pride Rock, African savanna below with gathered animals, golden sunrise rays, Drew Struzan painterly style, Art Nouveau border with sunflowers and African motifs, joyful triumphant celebratory mood --ar 9:16 --v 6

@@ -42,6 +42,17 @@ Art Nouveau frame with:
 - Chocolates
 - Shrimp
 
+### Gags & Easter Eggs
+- **Bench inscription:** "Life is like a box of flatulents" carved into the bus stop bench
+- **Bubba-Gump Shrimp:** A tiny shrimp boat named "Jenny's Bottom" in the far background
+- **The chocolates:** Box labeled "Ass-orted Chocolates"
+- **Lieutenant Dan:** A legless butt sitting in the background giving a thumbs up
+- **Ping pong paddle:** Tucked into his waistband (he was a champion)
+- **Running route map:** On the bench, showing his cross-country run path shaped like a butt
+- **Jenny's letter:** Sticking out of his pocket
+- **Dr Pepper:** A bottle on the bench (he drank 15 Dr Peppers at the White House)
+- **Medal of Honor:** Pinned to his shirt, but it's butt-shaped
+
 ### AI Image Prompt
 ```
 Tarot card "The Fool", a wholesome butt character dressed as Forrest Gump with plaid shirt and white sneakers, holding box of chocolates, stepping off a cliff edge on a sunny Alabama road, feather floating, bus stop bench, blue sky, Drew Struzan painterly style, Art Nouveau ornate border with feathers and shrimp, warm golden lighting, optimistic mood --ar 9:16 --v 6

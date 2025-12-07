@@ -63,6 +63,21 @@ Art Nouveau frame with:
 - Chains
 - The "shh" pinky gesture
 
+### Gags & Easter Eggs
+- **The ransom demand:** Screen showing "ONE MILLION DOLLARS" (pathetically low)
+- **Sharks with frickin' laser beams:** Clearly visible in tanks
+- **Mutated sea bass:** "Ill-tempered" label on secondary tank
+- **Scott Evil:** Sulky teenage butt in corner rolling eyes
+- **Fat Bastard:** Large Scottish butt in background eating
+- **Goldmember:** Gold-obsessed Dutch butt nearby
+- **Austin Powers:** Chained up, looking fabulous despite captivity
+- **Fembots:** Robot butts with gun... attachments
+- **"The Alan Parsons Project":** Plans on desk for the laser
+- **Time machine:** Visible in corner (for time travel shenanigans)
+- **Zip it!:** Speech bubble being silenced
+- **Virtucon logo:** Evil corporation branding everywhere
+- **"When I was insolent I was placed in a burlap bag and beaten":** Journal visible
+
 ### AI Image Prompt
 ```
 Tarot card "The Devil", a bald pale butt character as Dr. Evil in grey Nehru suit, seated in rotating villain chair, pinky to mouth, hairless cat on lap, tiny Mini-Me butt chained beside, villain lair with shark tanks and lasers, control panels, Drew Struzan painterly style, Art Nouveau border with sharks and dollar signs, campy villainous mood --ar 9:16 --v 6

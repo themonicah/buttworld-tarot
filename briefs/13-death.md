@@ -63,6 +63,22 @@ Art Nouveau frame with:
 - Scythes
 - Transitional motifs (cocoon to butterfly)
 
+### Gags & Easter Eggs
+- **Tombstone inscriptions:**
+  - "Here lies my diet - 2024-2024"
+  - "R.I.P. - Really Into Pizza"
+  - "Gone but not deflatulated"
+- **Butterfly emerging:** From a cocoon on the dead tree (transformation)
+- **Chess board:** A chess set on a grave, knight knocked over (nod to Seventh Seal)
+- **"Don't Fear the Reaper":** Sheet music tucked in robe
+- **Family Guy Death:** A tiny cartoon death in background for contrast
+- **Bill & Ted:** "Station!" graffitied on a grave (Bogus Journey reference)
+- **Appointment book:** Reading "Everyone, eventually"
+- **Coffee mug:** "Death Takes No Holiday" thermos
+- **Pet cemetery:** Tiny pet graves in corner, one with a goldfish
+- **Discworld reference:** "NOT SHOUTING, JUST SPEAKING IN CAPITALS"
+- **The sand:** Each grain is shaped like a tiny butt
+
 ### AI Image Prompt
 ```
 Tarot card "Death", a skeletal pale butt character as Grim Reaper in flowing black hooded robe, holding scythe and glowing hourglass, standing in misty graveyard at dawn, dead tree on left blooming tree on right, white rose growing from grave, sunrise on horizon, Drew Struzan painterly style, Art Nouveau border with skulls and roses, solemn transformative mood, respectful not scary --ar 9:16 --v 6

@@ -57,6 +57,19 @@ Art Nouveau frame with:
 - The four traditional creatures
 - Spinning wheel motifs
 
+### Gags & Easter Eggs
+- **Letter board puzzle:** Partially reveals "_ U T T W O R L D" or "B U _ _ W O R L D"
+- **Pat Sajak:** Tiny Pat-butt at his podium looking smug
+- **Wheel wedges:** Include "$FART", "LOSE A TURD", "BANKR-BUTT", "FREE PLAY-AY"
+- **Prize list:** Visible prizes include "A NEW CAR(D)" and "TRIP TO BUTTWORLD"
+- **Contestant butts:** Three nervous butts at contestant podiums
+- **Vanna's dress count:** A small counter showing "Dress #6,789"
+- **Used letters:** "RSTLNE" already called, crossed out
+- **Bonus round envelope:** On the side, sealed
+- **Sajak's coffee mug:** Hidden with "I'd rather be hosting Jeopardy"
+- **40+ years:** A banner reading "40 Years of Spinning!"
+- **Category sign:** "BEFORE & AFTER (GAS)"
+
 ### AI Image Prompt
 ```
 Tarot card "Wheel of Fortune", an elegant glamorous butt character as Vanna White in sparkly gown, gesturing gracefully beside giant game show wheel, TV studio set, letter board in background, studio lights, four mystical creatures in corners, Drew Struzan painterly style, Art Nouveau border with letters and stars, dazzling studio lighting, glamorous exciting mood --ar 9:16 --v 6

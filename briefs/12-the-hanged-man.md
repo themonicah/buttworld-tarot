@@ -53,6 +53,21 @@ Art Nouveau frame with:
 - Upside-down motifs
 - Camera (photographer reference)
 
+### Gags & Easter Eggs
+- **Pizza slice:** Falling from somewhere (he's always eating pizza)
+- **Daily Bugle headline:** "SPIDER-MENACE HANGS AROUND" visible on newspaper below
+- **J. Jonah Jameson:** Tiny angry butt shaking fist from window
+- **MJ's kiss:** Red lipstick mark on mask (upside-down kiss reference)
+- **Uncle Ben's grave:** Visible in a cemetery far below
+- **Web fluid cartridges:** A few empty ones falling
+- **Camera:** His camera on a web-timer, taking a selfie for the Bugle
+- **"Rent" sign:** Visible in his apartment window - he owes rent
+- **Aunt May's wheat cakes:** A tupperware stuck to web nearby
+- **Mary Jane:** Looking up lovingly from street below
+- **"Thwip thwip":** Small text near web shooters
+- **Iron Spider legs:** Just hints of them, retracted
+- **Mr. Stark reference:** A Stark Industries building in skyline
+
 ### AI Image Prompt
 ```
 Tarot card "The Hanged Man", an athletic butt character as Spider-Man in red and blue suit, hanging upside down from web between NYC skyscrapers, arms crossed peacefully, golden hour sunset lighting, city skyline background, halo effect around head, Drew Struzan painterly style, Art Nouveau border with spider webs and NYC skyline, warm contemplative mood --ar 9:16 --v 6

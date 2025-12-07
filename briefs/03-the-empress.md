@@ -51,6 +51,19 @@ Art Nouveau frame with:
 - Venus symbols
 - Hearts
 
+### Gags & Easter Eggs
+- **Under the seats:** Gift boxes visible under audience seats (the car giveaway)
+- **Gift box labels:** "YOU GET A CAR" "YOU GET A GAS" "YOU GET BEES" (the bee incident)
+- **Favorite Things list:** A scroll reading "Oprah's Favorite Farts - 2024 Edition"
+- **Stedman:** A supportive butt figure clapping in the front row
+- **Gayle:** Another butt on a phone in the audience (best friend always there)
+- **Book club pick:** A book with "OPRAH'S BUTT CLUB" sticker on throne arm
+- **Weight Watchers wagon:** A tiny red wagon with weights in the background
+- **Bread:** A loaf of bread on the throne arm (she loves bread)
+- **O Magazine:** Scattered on floor, covers all feature her butt
+- **Harpo spelled backward:** "OPRAH" visible in mirror/reflection somewhere
+- **The couch:** Tom Cruise-style jump marks on the cushion
+
 ### AI Image Prompt
 ```
 Tarot card "The Empress", an opulent butt character as Oprah seated on luxurious throne, arms spread wide in generous gesture, wearing flowing purple dress, surrounded by gift boxes and adoring audience, stage lights creating halo, lush plants, Drew Struzan painterly style, Art Nouveau border with abundance motifs, warm golden lighting, regal generous mood --ar 9:16 --v 6

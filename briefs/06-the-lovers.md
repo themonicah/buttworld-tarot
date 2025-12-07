@@ -59,6 +59,20 @@ Art Nouveau frame with:
 - Stars
 - Poison vials (subtle foreshadowing)
 
+### Gags & Easter Eggs
+- **Balcony inscription:** "Wherefore art thou" carved into stone
+- **Poison vial:** Already visible on Juliet's windowsill (foreshadowing)
+- **Dagger:** Tucked in Romeo's belt
+- **Nurse butt:** Peeking from behind curtain looking annoyed
+- **Tybalt's shadow:** A menacing figure watching from shadows
+- **Mercutio graffiti:** "A plague on both your houses" scrawled on wall
+- **Montague/Capulet crests:** One on each pillar, both featuring butts
+- **The apothecary:** Tiny shop visible in distant Verona street
+- **Friar Lawrence:** A monk butt blessing them from a window
+- **"Two households, both alike in dignity":** On a scroll in border
+- **The fish:** From the fish-selling scene, flopping in fountain below
+- **Paris:** A wealthy-looking butt lurking jealously in background
+
 ### AI Image Prompt
 ```
 Tarot card "The Lovers", two butt characters as Romeo and Juliet, she on Renaissance balcony reaching down, he in garden reaching up, moonlit Verona scene, climbing roses, angel figure above, Drew Struzan painterly style, Art Nouveau border with roses and crossed swords, romantic moonlight blue lighting, star-crossed lovers mood --ar 9:16 --v 6

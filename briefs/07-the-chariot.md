@@ -59,6 +59,19 @@ Art Nouveau frame with:
 - Horses
 - Stars
 
+### Gags & Easter Eggs
+- **Messala crashing:** His chariot with spike wheels crashing spectacularly behind
+- **Slave ship number:** "41" branded somewhere (his galley slave number)
+- **Leper colony:** Distant cliffside with figures waving (his mother and sister)
+- **"Row well, and live":** Carved into chariot
+- **Quintus Arrius:** A Roman general butt giving thumbs up from the stands
+- **IX laps:** Lap counter showing 9 (the famous 9-lap race)
+- **Broken wheel spikes:** Messala's spike wheels scattered on track
+- **Jesus cameo:** A peaceful carpenter butt giving water in the background (their paths crossed)
+- **Pontius Pilate:** Watching from emperor's box looking bored
+- **White horses:** Named Rigel, Aldebaran, Altair, and Antares (actual horse names from film)
+- **The ring:** Esther's ring visible on his hand
+
 ### AI Image Prompt
 ```
 Tarot card "The Chariot", a muscular butt character as Ben-Hur driving Roman chariot at full speed, two horses (one black one white), Colosseum race scene, dust clouds, crashing competitor behind, cheering crowd, Drew Struzan painterly style, Art Nouveau border with laurel wreaths and chariot wheels, harsh golden sunlight, triumphant victorious mood --ar 9:16 --v 6

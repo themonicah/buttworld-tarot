@@ -57,6 +57,20 @@ Art Nouveau frame with:
 - Battle Cat stripes
 - Muscles
 
+### Gags & Easter Eggs
+- **Cringer hiding:** A scared green cat butt peeking from behind a rock (pre-transformation)
+- **Skeletor:** His skull face visible in storm clouds, shaking fist
+- **"I HAVE THE POWER":** Lightning bolts spelling it out
+- **Prince Adam's clothes:** Pink vest and purple tights discarded on ground nearby
+- **Orko:** Tiny floating wizard butt in background looking amazed
+- **Man-At-Arms:** Armored butt giving approving nod from distance
+- **Teela:** Warrior woman butt looking impressed
+- **Snake Mountain:** Visible in far distance (enemy headquarters)
+- **The Sorceress:** Falcon flying overhead (her transformed state)
+- **"FABULOUS SECRET POWERS":** Subtle text in the energy swirls
+- **Eternia moons:** Two moons visible in sky
+- **4 Non Blondes reference:** Sheet music for "What's Up" tucked in harness (reversed quote reference)
+
 ### AI Image Prompt
 ```
 Tarot card "Strength", an incredibly muscular butt character as He-Man with blonde bowl cut, holding Power Sword aloft, lightning striking, Castle Greyskull in background, Battle Cat green tiger beside him, dramatic Eternia sky, Drew Struzan painterly style, Art Nouveau border with lightning and swords, heroic fantasy lighting, powerful triumphant mood --ar 9:16 --v 6

@@ -61,6 +61,21 @@ Art Nouveau frame with:
 - Roses
 - Transformation ribbons
 
+### Gags & Easter Eggs
+- **Luna and Artemis:** The two cats (black and white) sitting on either side
+- **Tuxedo Mask:** A mysterious caped butt lurking in shadows, throwing roses
+- **The Silver Crystal:** Glowing at center of her tiara
+- **Sailor Scouts silhouettes:** Mercury, Mars, Jupiter, Venus in background
+- **Crown Arcade:** The arcade where they hang out visible in Tokyo
+- **Usagi's test paper:** A failed test (30 points) floating in water
+- **Moon Stick:** Her first wand lying by the pool
+- **Manga panels:** Floating like memories in the reflection
+- **Queen Serenity:** Ghostly mother figure in the moon
+- **"In the name of the moon":** Speech bubble forming
+- **Sailor V poster:** On Tokyo Tower
+- **Crescent moon bald spot:** On Luna's forehead clearly visible
+- **Negaverse energy:** Dark tendrils creeping from one side
+
 ### AI Image Prompt
 ```
 Tarot card "The Moon", an athletic butt character as Sailor Moon with blonde odango pigtails, sailor fuku uniform, moon wand, standing before giant full moon, Tokyo Tower and Moon Kingdom pillars on sides, reflecting pool, black and white cats howling, crayfish emerging from water, Drew Struzan painterly style, Art Nouveau border with crescent moons and cats, dreamy mystical uncertain mood --ar 9:16 --v 6

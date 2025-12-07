@@ -59,6 +59,20 @@ Art Nouveau frame with:
 - Legal scrolls
 - "Order in the court" banners
 
+### Gags & Easter Eggs
+- **Case file:** Labeled "Buttowski vs. Buttowski - Small Claims"
+- **Byrd's eye roll:** Bailiff Byrd mid-eye-roll at defendant's excuse
+- **"Beauty fades, dumb is forever":** Embroidered on a pillow on her chair
+- **Case amount:** "$5,000 - THE MAXIMUM" on the docket
+- **The liar defendant:** One defendant visibly sweating, nose growing like Pinocchio
+- **Tissues box:** On defendant podium (they always cry)
+- **Evidence photos:** Blurry photos of "damage" that's clearly nothing
+- **"Um" counter:** A tally on Judy's bench counting defendant's "ums"
+- **Her books:** "Don't Pee on My Leg" and "Beauty Fades" visible on shelf
+- **$47 million salary:** A paycheck visible reading "another day another million"
+- **Brooklyn accent:** Speech bubble with "BALONEY!"
+- **The gavel:** Well-worn from years of smacking sense into people
+
 ### AI Image Prompt
 ```
 Tarot card "Justice", a stern no-nonsense butt character as Judge Judy in black robe at courtroom bench, pointing finger accusingly, holding gavel, bailiff standing beside, American flag, nervous defendants at podiums, scales of justice, Drew Struzan painterly style, Art Nouveau border with gavels and scales, harsh courtroom lighting, authoritative judgmental mood --ar 9:16 --v 6
